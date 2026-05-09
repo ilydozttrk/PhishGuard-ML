@@ -1,75 +1,77 @@
 <div align="center">
 
-# PHISHGUARD ML
+# [ PHISHGUARD ML ]
 
-### Intelligent Phishing Threat Detection Platform
+### AI-Powered Phishing Threat Intelligence Platform
 
-AI-powered cybersecurity system for phishing website analysis, malicious URL detection, and real-time threat classification.
+```text
+> Initializing Threat Detection Engine...
+> Loading Machine Learning Models...
+> Real-Time URL Analysis Module Active...
+```
 
-<br>
-
-![Python](https://img.shields.io/badge/Python-3.x-111111?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-111111?style=for-the-badge&logo=fastapi)
-![React](https://img.shields.io/badge/React-Frontend-111111?style=for-the-badge&logo=react)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-111111?style=for-the-badge)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Threat%20Detection-111111?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi)
+![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-111111?style=flat-square)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Threat%20Detection-111111?style=flat-square)
 
 </div>
 
 ---
 
 ```text
-[ STATUS ] Threat Detection Engine Active
-[ STATUS ] Machine Learning Models Loaded
-[ STATUS ] Real-Time URL Analysis Enabled
+═══════════════════════════════════════════════════════
+[ STATUS ] THREAT ANALYSIS CORE : ACTIVE
+[ STATUS ] ENSEMBLE ML ENGINE   : ONLINE
+[ STATUS ] URL CLASSIFIER       : RUNNING
+═══════════════════════════════════════════════════════
 ```
 
----
+# System Overview
 
-# Overview
-
-PhishGuard ML is a machine learning-based cybersecurity platform designed to detect phishing websites through intelligent URL analysis and behavioral threat classification.
+PhishGuard ML is a machine learning-based cybersecurity platform developed to identify phishing websites through intelligent URL analysis and behavioral threat classification.
 
 The system evaluates suspicious websites using multiple security-oriented indicators including:
 
-- SSL certificate validity
-- URL structural anomalies
+- SSL certificate integrity
+- URL structure anomalies
 - Domain manipulation patterns
 - Anchor behavior analysis
-- Website traffic signals
+- Website traffic metrics
 - Redirection characteristics
 
-Unlike traditional blacklist-based protection systems, PhishGuard ML focuses on predictive threat analysis, enabling the detection of previously unseen phishing attempts using machine learning-driven security intelligence.
+Unlike traditional blacklist-based systems, PhishGuard ML focuses on predictive threat intelligence, enabling the detection of previously unseen phishing attacks through machine learning-driven analysis.
 
 ---
 
-# Threat Detection Pipeline
+# Threat Intelligence Pipeline
 
 ```text
-[ User URL Input ]
-          ↓
-[ Feature Extraction ]
-          ↓
-[ Threat Intelligence Analysis ]
-          ↓
+[ Suspicious URL ]
+         ↓
+[ Feature Extraction Engine ]
+         ↓
+[ Behavioral Threat Analysis ]
+         ↓
 [ Machine Learning Classification ]
-          ↓
-[ Safe / Suspicious / Phishing ]
+         ↓
+[ SAFE / SUSPICIOUS / PHISHING ]
 ```
 
 ---
 
-# Core Capabilities
+# Detection Infrastructure
 
 ## Real-Time Threat Analysis
 
-The platform performs instant phishing risk evaluation by extracting and analyzing security-related features from user-submitted URLs.
+The platform performs real-time phishing detection by extracting and analyzing multiple security-related website features from user-submitted URLs.
 
 ---
 
-## Multi-Model Machine Learning Infrastructure
+## Multi-Model Security Architecture
 
-The system integrates multiple machine learning algorithms to maximize phishing detection performance:
+Several machine learning models were trained and evaluated throughout the project development lifecycle:
 
 - Random Forest
 - XGBoost
@@ -78,23 +80,25 @@ The system integrates multiple machine learning algorithms to maximize phishing 
 - Extra Trees Classifier
 - Stacking Ensemble
 
-Ensemble learning techniques were utilized to improve classification consistency and overall threat detection reliability.
+Ensemble learning methods were integrated to improve classification consistency and threat detection accuracy.
 
 ---
 
-## Intelligent Threat Logging
+## Threat Logging & Intelligence Expansion
 
-Prediction results and analyzed URLs are continuously stored within a structured logging system to support:
+Prediction results and analyzed URLs are continuously stored to support:
 
+- phishing pattern analysis,
 - dataset expansion,
 - retraining operations,
-- phishing pattern analysis,
-- long-term model optimization,
-- and cybersecurity research workflows.
+- model optimization,
+- and long-term cybersecurity research.
+
+This enables the platform to evolve against emerging phishing techniques and adaptive attack behaviors.
 
 ---
 
-# Performance Evaluation
+# Model Evaluation
 
 | Model | Accuracy | F1 Score | ROC-AUC |
 |---|---|---|---|
@@ -106,11 +110,11 @@ Prediction results and analyzed URLs are continuously stored within a structured
 
 # Security-Critical Features
 
-| Feature | Security Purpose |
+| Feature | Security Function |
 |---|---|
-| SSLfinal_State | SSL / HTTPS certificate validation |
-| URL_of_Anchor | Detection of suspicious anchor behavior |
-| Web Traffic | Website trust and popularity evaluation |
+| SSLfinal_State | SSL / HTTPS certificate verification |
+| URL_of_Anchor | Suspicious anchor behavior detection |
+| Web Traffic | Website trust and popularity analysis |
 
 ---
 
@@ -199,16 +203,18 @@ http://localhost:5173
 
 ---
 
-# Threat Classification Workflow
+# Threat Analysis Workflow
 
 1. User submits a suspicious URL
 2. Security-related features are extracted
-3. Machine learning models perform threat analysis
-4. The system classifies the website as:
+3. Machine learning models perform threat evaluation
+4. The system classifies the target as:
 
-- SAFE
-- SUSPICIOUS
-- PHISHING
+```text
+[ SAFE ]
+[ SUSPICIOUS ]
+[ PHISHING ]
+```
 
 ---
 
@@ -216,10 +222,10 @@ http://localhost:5173
 
 PhishGuard ML was developed to:
 
-- strengthen cybersecurity awareness,
-- improve phishing attack detection,
-- explore AI-driven security systems,
-- and research scalable machine learning-based threat analysis solutions.
+- improve cybersecurity awareness,
+- strengthen phishing detection systems,
+- research AI-driven threat analysis,
+- and explore scalable machine learning-based security solutions.
 
 ---
 
@@ -242,13 +248,16 @@ Bitlis Eren University — Department of Computer Engineering.
 ---
 
 ```text
+═══════════════════════════════════════════════════════
 [ DISCLAIMER ]
-This project was developed for academic and educational purposes.
-Additional security layers, continuous monitoring, and periodic
-model retraining are recommended for production environments.
-```
 
----
+This project was developed for academic and educational
+purposes. Additional security layers, continuous monitoring,
+and periodic model retraining are recommended for production
+environments.
+
+═══════════════════════════════════════════════════════
+```
 
 # License
 
